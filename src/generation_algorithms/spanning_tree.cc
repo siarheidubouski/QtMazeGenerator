@@ -1,5 +1,5 @@
 #include "spanning_tree.h"
 
 SpanningTree::SpanningTree() {
-  generator_ = std::19937(randDevice());
+  generator_ = std::mt19937(randDevice());
 }
